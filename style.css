@@ -105,6 +105,7 @@ h1 {
   cursor: pointer;
 }
 
+
 .btn:hover {
   background-color: #ccc;
 }
@@ -116,4 +117,26 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 2rem 1rem;
+  }
+  .between {
+    font-size: 0.9rem;
+  }
+  main {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .right {
+    width: 100%;
+  }
 }
